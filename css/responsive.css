@@ -32,6 +32,11 @@
     padding-bottom: 51px;
   }
 
+  .modal-btn {
+    top: 26%;
+    left: 74.5%;
+  }
+
   .portfolio__gallery {
       grid-gap: 15px;
   }
