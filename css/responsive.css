@@ -1,75 +1,198 @@
 @media (min-width: 769px) and (max-width: 1134px) {
+  .container {
+    max-width: 762px;
+  }
+
+  .hero__profile {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .hero__photo {
+    background-image: url(../images/hero-photo-tablet.jpg);
+    width: 762px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero__personality {
+    margin-left: 0;
+    margin-top: 66px;
+  }
+
+  .hero__line {
+    min-width: 763px;
+  }
+
+  .hero__button {
+    margin-left: 3px;
+  }
+
+  .portfolio {
+    padding: 0;
+    padding-bottom: 51px;
+  }
+
+  .portfolio__gallery {
+    grid-gap: 15px;
+  }
+
+  .portfolio__gallery-item {
+    width: 180px;
+    height: 180px;
+  }
+
+  .photo-1 {
+    background-image: url(../images/1-tablet.jpg);
+  }
+
+  .photo-2 {
+    background-image: url(../images/2-tablet.jpg);
+  }
+
+  .photo-3 {
+    background-image: url(../images/3-tablet.jpg);
+  }
+
+  .photo-4 {
+    background-image: url(../images/4-tablet.jpg);
+  }
+
+  .photo-5 {
+    background-image: url(../images/5-tablet.jpg);
+  }
+
+  .photo-6 {
+    background-image: url(../images/6-tablet.jpg);
+  }
+
+  .photo-7 {
+    background-image: url(../images/7-tablet.jpg);
+  }
+
+  .photo-8 {
+    background-image: url(../images/8-tablet.jpg);
+  }
+
+  @media (max-width: 565px) {
     .container {
-      max-width: 762px;
+      max-width: 341px;
     }
-  
+
+    .hero {
+      padding: 51px 13px 0 21px;
+    }
+
     .hero__profile {
       flex-direction: column;
       margin-left: 0;
     }
+
     .hero__photo {
-      background-image: url(../images/hero-photo-tablet.jpg);
-      width: 762px;
+      background-image: url(../images/hero-photo-mobile.jpg);
+      width: 341px;
       padding-left: 0;
       padding-right: 0;
     }
-  
+
     .hero__personality {
       margin-left: 0;
-      margin-top: 66px;
+      margin-top: 63px;
     }
-  
+
     .hero__line {
-      min-width: 763px;
+      width: 341px;
     }
-  
+
+    .hero__subtitle {
+      margin-bottom: 30px;
+    }
+
     .hero__button {
-      margin-left: 3px;
+      margin-top: 23px;
+      padding: 12px 100px;
     }
-  
+
     .portfolio {
-      padding: 0;
-      padding-bottom: 51px;
+      padding: 37px 0 55px 5px;
     }
-  
-    .portfolio__gallery {
-        grid-gap: 15px;
+
+    .portfolio__title {
+      margin-bottom: 11px;
     }
-  
-    .portfolio__gallery-item {
-      width: 180px;
-      height: 180px;
-    }
-  
+
     .photo-1 {
-      background-image: url(../images/1-tablet.jpg);
+      background-image: url(../images/1-mobile.jpg);
+      background-repeat: no-repeat;
     }
-  
+
     .photo-2 {
-      background-image: url(../images/2-tablet.jpg);
+      background-image: url(../images/2-mobile.jpg);
     }
-  
+
     .photo-3 {
-      background-image: url(../images/3-tablet.jpg);
+      background-image: url(../images/3-mobile.jpg);
     }
-  
+
     .photo-4 {
-      background-image: url(../images/4-tablet.jpg);
+      background-image: url(../images/4-mobile.jpg);
     }
-  
+
     .photo-5 {
-      background-image: url(../images/5-tablet.jpg);
+      background-image: url(../images/5-mobile.jpg);
     }
-  
+
     .photo-6 {
-      background-image: url(../images/6-tablet.jpg);
+      background-image: url(../images/6-mobile.jpg);
     }
-  
+
     .photo-7 {
-      background-image: url(../images/7-tablet.jpg);
+      background-image: url(../images/7-mobile.jpg);
     }
-  
+
     .photo-8 {
-      background-image: url(../images/8-tablet.jpg);
+      background-image: url(../images/8-mobile.jpg);
+    }
+
+    .portfolio__gallery {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+      margin-top: 37px;
+    }
+
+    .portfolio__gallery-item {
+      width: 165px;
+      height: 165px;
+    }
+
+    .portfolio__description {
+      word-spacing: -1px;
+    }
+
+    .modal-content {
+      width: 341px;
+      padding: 20px 20px;
+    }
+
+    .modal__content-title {
+      margin-bottom: 12px;
+    }
+
+    .modal__content-description {
+      margin-bottom: 20px;
+    }
+
+    .custom-name {
+      margin-bottom: 15px;
+      width: 305px;
+    }
+
+    .custom-email {
+      width: 305px;
+    }
+
+    .custom-message {
+      margin-top: 15px;
+      width: 305px;
     }
   }
+}
