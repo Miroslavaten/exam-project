@@ -354,3 +354,53 @@ body {
   top: 45%;
   left: 45%;
 }
+
+.footer {
+  height: 205px;
+  background: #19849b;
+}
+
+.footer__top {
+  width: 329px;
+  margin: 0 auto;
+  display: flex;
+  color: #ffffff;
+  padding-top: 38px;
+  padding-left: 6px;
+  margin-bottom: 27px;
+}
+
+.footer__contacts {
+  padding-left: 35px;
+}
+
+.footer__contacts-name {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.footer__contacts-tel {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.footer__bottom {
+  height: 44px;
+  background: #16758a;
+  color: #ffffff;
+}
+
+.footer__copyright {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
