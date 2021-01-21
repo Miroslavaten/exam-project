@@ -26,3 +26,77 @@ body {
   line-height: 58px;
   text-align: center;
 }
+
+.hero {
+  background-color: #272a2f;
+  padding: 51px;
+}
+
+.container {
+  max-width: 1038px;
+  margin: 0 auto;
+}
+
+.hero__profile {
+  display: flex;
+  margin-left: 31px;
+}
+
+.hero__photo {
+  background-image: url(../images/hero-photo.jpg);
+  width: 411px;
+  height: 355px;
+  padding-left: 31px;
+  padding-right: 380px;
+}
+
+.hero__personality {
+  color: #ffffff;
+  margin-left: 70px;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  margin-bottom: 14px;
+}
+
+.hero__line {
+  width: 559px;
+  height: 4px;
+  background: #19849b;
+  border: none;
+  margin-bottom: 13px;
+}
+
+.hero__subtitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  margin-bottom: 32px;
+}
+
+.hero__button {
+  outline: none;
+  border: solid 3px #ffffff;
+  color: inherit;
+  background-color: #272a2f;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 12px 77px;
+  letter-spacing: 1.5px;
+  margin-top: 30px;
+  transition: all 0.2s;
+}
+
+.hero__button:hover {
+  border: none;
+  background-color: #19849b;
+  width: 294px;
+  height: 51px;
+}
