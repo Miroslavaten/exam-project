@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+
+.header {
+  height: 58px;
+  background: #19849b;
+}
+
+.header__name {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 58px;
+  text-align: center;
+}
